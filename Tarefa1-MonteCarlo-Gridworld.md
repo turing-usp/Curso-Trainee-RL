@@ -30,9 +30,9 @@ Esses cursos são gratuitos, vc tem que entrar como ouvinte, se tiver dificuldad
 
 <img width="891" height="267" alt="image" src="https://github.com/user-attachments/assets/efc7fa7f-7442-4dfb-9985-77b0cc9be751" />
 
-<br>Seu ambiente é um tabuleiro com recompensas negativas pequenas (-0.05) em todas as células, exceto na meta (B) que concede +1.0 e termina o episódio. 
+<br>Seu ambiente é um tabuleiro com recompensas negativas pequenas (-0.05) em todas as células, exceto na meta (B) que concede +1.0 e termina o episódio, o agente se movimenta pelo tabuleiro atraves de movimentos para direita, esquerda, cima e baixo, e o objetivo é chegar na célula B. 
 <br>O agente começa em A e deve aprender a política ótima usando Monte Carlo.
-<br>A imagem a seguit tem o pseudo-código de um dos métodos de monte carlo possiveis, existem outros pseudo-códigos de outros métodos de monte carlo no livro, sinta-se livre pra implementar esse ou algum dos outros(os outros sao mais legais).
+<br>A imagem a seguir tem o pseudo-código de um dos métodos de monte carlo possiveis, existem outros pseudo-códigos de outros métodos de monte carlo no livro, sinta-se livre pra implementar esse ou algum dos outros(os outros sao mais legais).
 
 <img width="852" height="406" alt="image" src="https://github.com/user-attachments/assets/6e1361f1-2d9f-4881-8d7e-a237241887f1" />
 
