@@ -5,8 +5,10 @@
 Os métodos **TD** combinam ideias dos métodos de *Programação Dinâmica* (DP) e *Monte Carlo* (MC):
 
 * **Amostragem** do ambiente como em MC – não precisam de modelo.
-* **Bootstrapping** como em DP – atualizam estimativas usando outras estimativas.
 * **Atualização on‑line**: os valores são corrigidos a cada passo $t$, antes do fim do episódio.
+* **Bootstrapping** como em DP – atualizam estimativas usando outras estimativas.
+<br> (Em Aprendizado por Reforço, bootstrapping é o processo de atualizar uma estimativa com base em outra estimativa já disponível. Em vez de esperar todo o retorno ao final do episódio (estratégia Monte Carlo), um método com bootstrapping faz correções imediatas usando previsões posteriores, que ainda estão sujeitas a erro.)
+
 
 A atualização genérica de TD para a função de valor‑estado $V$ é
 
