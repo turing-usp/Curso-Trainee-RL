@@ -64,9 +64,9 @@ Placeholder do pseudocódigo:
 
 ## 4. Conteúdo preparatório
 ### 4.1 Leitura
-[* Resumo de TD](https://github.com/turing-usp/Aprendizado-por-Reforco/tree/main/Aprendizado%20por%20Refor%C3%A7o%20Cl%C3%A1ssico/Temporal-Difference)
+* [Resumo de TD](https://github.com/turing-usp/Aprendizado-por-Reforco/tree/main/Aprendizado%20por%20Refor%C3%A7o%20Cl%C3%A1ssico/Temporal-Difference)
 ### 4.2 Vídeos
-[* Temporal Difference Learning](https://www.youtube.com/watch?v=AJiG3ykOxmY)
+* [Temporal Difference Learning](https://www.youtube.com/watch?v=AJiG3ykOxmY)
 ### 4.3 Livro
 * Capítulo 6 do clássico Reinforcement Learning: An Introduction aprofunda os métodos de TD.
 
