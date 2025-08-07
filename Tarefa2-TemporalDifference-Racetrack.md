@@ -1,5 +1,5 @@
 # Tarefa 2 – SARSA, Q‑Learning e Exercício Racetrack
-##Tempo estimado- 1 semana
+## Tempo estimado- 1 semana
 ## 1. Aprendizado por Diferença Temporal (Temporal‑Difference, **TD**)
 
 Os métodos **TD** combinam ideias dos métodos de *Programação Dinâmica* (DP) e *Monte Carlo* (MC):
