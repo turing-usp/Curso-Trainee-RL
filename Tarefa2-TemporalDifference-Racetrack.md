@@ -82,7 +82,7 @@ Esses cursos são gratuitos, vc tem que entrar como ouvinte, se tiver dificuldad
 ### Configuração do ambiente
 
 * **Estados**: posição do carro em um tabuleiro (grid) **+** velocidade discreta de 0 a 4 no eixo x e y $(v_x,v_y)$. Na linha de partida ambas velocidades iniciam em 0.
-* **Ações**: incrementos independentes $\Delta v_x,\,\Delta v_y \in \{-1,0,+1\}$ ⇒ 6 ações. As velocidades não podem ser negativas, nem ambas zero fora da largada.
+* **Ações**: O agente recebera os seguintes estados para tomar decisões: qual sua posição no racetrack e sua velocidade atual, com base nisso ele pode tomar as seguintes ações: acelerar 1 ou -1(desacelerar no caso) no eixo x e y, entao ele pode tomar as seguintes ações (aceleracao_x,aceleracao_y): (-1,0) ; (0,-1) ; (0,0) ; (1,0) ; (0,1). As velocidades não podem ser negativas, nem ambas zero fora da largada.
 * **Dinâmica**: a cada passo o carro se desloca segundo a nova velocidade. Antes de mover, traça‑se a linha do caminho previsto:
 
   * Se cruza a **linha de chegada**, o episódio termina.
