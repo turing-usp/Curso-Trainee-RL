@@ -37,7 +37,7 @@ Esses cursos são gratuitos, vc tem que entrar como ouvinte, se tiver dificuldad
 <img width="852" height="406" alt="image" src="https://github.com/user-attachments/assets/6e1361f1-2d9f-4881-8d7e-a237241887f1" />
 
 ## 4. Entregáveis
-1. **Notebook Jupyter** contendo (nao use gpt nessa parte de preferencia):
+1. **Notebook Jupyter** contendo:
    - Implementação do ambiente gridworld.
    - Algoritmo Monte Carlo (inclua comentários explicativos).
    - Impressão das matrizes de recompensas, valores e política final (veja exemplo abaixo).
